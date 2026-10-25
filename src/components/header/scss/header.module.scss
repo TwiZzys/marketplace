@@ -1,0 +1,244 @@
+@use "@scss/vars" as *;
+
+.header {
+  padding-top: 20px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  &__add {
+    @include RobotoVar(500);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 12px 17px;
+    transition: color .5s ease, border-color .5s ease;
+
+    :global(body.dark) & {
+      border-color: $white;
+
+      &:hover {
+        border-color: $red;
+      }
+    }
+
+    &:hover {
+      color: $red;
+      border: 2px solid $red;
+    }
+
+    @include media(950) {
+      padding: 10px;
+      span {
+        display: none;
+      }
+    }
+
+    @include media(768) {
+      padding: 0;
+      margin-left: 20px;
+    }
+  }
+}
+
+.logo {
+  @include media(768) {
+    margin-right: auto;
+  }
+
+  &__picture {
+    @include aspect-ratio(70, null, cover);
+
+    @include media(950) {
+      @include aspect-ratio(50, null, cover);
+    }
+  }
+}
+
+.menu {
+  @include media(768) {
+    order: 1;
+    margin-left: auto;
+  }
+
+  &__btn {
+    display: none;
+
+    @include media(768) {
+      display: block;
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+
+    @include media(768) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+      z-index: 10;
+      color: $black;
+
+      :global(body.dark) & {
+        background-color: $black;
+        color: $white;
+        box-shadow: 0 18px 25px -4px rgba(0, 0, 0, 0.15);
+      }
+
+      // 1. Початковий стан (меню сховане і зміщене вгору)
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px); // легкий зсув для ефекту виїзду
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+
+      // 2. Відкритий стан (плавно з'являється і стає на місце)
+      &--open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+    }
+  }
+
+  &__link {
+    @include RobotoVar(500);
+    text-transform: uppercase;
+    position: relative; // Фіксує лінію всередині посилання
+    padding-bottom: 2px; // Відступ, щоб лінія була на рівні колишнього border
+    transition: color .5s ease;
+
+    // Замість border-bottom використовуємо псевдоелемент
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0; // Початковий стан: лінія захована (0%)
+      height: 2px; // Товщина бордера
+      background-color: red;
+      transition: width .5s ease; // Плавне малювання в обидва боки
+    }
+
+    &:hover {
+      color: $red;
+
+      // При наведенні лінія виростає зліва направо
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  &__link--active {
+    color: $blue;
+
+    &:hover {
+      color: $blue;
+    }
+
+    // Активна сторінка завжди має замальовану лінію
+    &::after {
+      width: 100%;
+      background-color: $blue;
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  line-height: 0;
+  position: relative;
+
+  @include media(768) {
+    gap: 20px;
+  }
+
+  &__icon {
+    transition: color .5s ease;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}
+
+.theme-toggle {
+  position: relative; // Щоб попап позиціонувався відносно кнопки
+
+  &__popup {
+    position: absolute;
+    top: 100%; // Одразу під кнопкою
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px; // Зменшили відступ між іконками, щоб не було занадто розріджено
+    padding: 6px; // Додали внутрішні відступи, щоб рамка гарно "обіймала" іконки
+    border-radius: 12px;
+    margin-top: 6px; // Невеликий відступ від верхньої кнопки
+
+    // Світла тема (за замовчуванням)
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.08);
+
+    // Темна тема (через body.dark)
+    :global(body.dark) & {
+      background-color: $black;
+      border-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 18px 25px -4px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &__option {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px; // Додали паддінг для кожної опції, щоб була зручна клікабельна зона
+    color: $black;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+      color: $red;
+    }
+
+    &--active {
+      background-color: rgba(0, 0, 0, 0.08);
+
+      :global(body.dark) & {
+        background-color: rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    :global(body.dark) & {
+      color: $white;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: $red;
+      }
+    }
+  }
+}
