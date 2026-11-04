@@ -1,0 +1,29 @@
+@use "vars" as *;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @include RobotoVar(500);
+  font-size: 16px;
+  color: $black;
+  line-height: 1.5;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1;
+}

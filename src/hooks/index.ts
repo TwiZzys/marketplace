@@ -1,0 +1,1 @@
+export {useSvgSprite} from './useSvgSprite';
