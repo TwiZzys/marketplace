@@ -1,0 +1,322 @@
+[
+  {
+    "id": "user-1",
+    "type": "private_seller",
+    "name": "Дмитро",
+    "lastName": "Шевчук",
+    "phone": "+380975472030",
+    "city": "Львів",
+    "rating": 4.3,
+    "registeredAt": "2025-01-22T10:00:00.000Z"
+  },
+  {
+    "id": "user-2",
+    "type": "private_seller",
+    "name": "Ольга",
+    "lastName": "Баранов",
+    "phone": "+380503265888",
+    "city": "Київ",
+    "rating": 4.5,
+    "registeredAt": "2025-06-17T10:00:00.000Z"
+  },
+  {
+    "id": "user-3",
+    "type": "private_seller",
+    "name": "Євген",
+    "lastName": "Коваль",
+    "phone": "+380677334989",
+    "city": "Вінниця",
+    "rating": 4.3,
+    "registeredAt": "2025-06-24T10:00:00.000Z"
+  },
+  {
+    "id": "user-4",
+    "type": "private_seller",
+    "name": "Василь",
+    "lastName": "Мельник",
+    "phone": "+380933385301",
+    "city": "Львів",
+    "rating": 4.3,
+    "registeredAt": "2025-01-19T10:00:00.000Z"
+  },
+  {
+    "id": "user-5",
+    "type": "private_seller",
+    "name": "Світлана",
+    "lastName": "Павленко",
+    "phone": "+380638873424",
+    "city": "Тернопіль",
+    "rating": 4.9,
+    "registeredAt": "2025-05-20T10:00:00.000Z"
+  },
+  {
+    "id": "user-6",
+    "type": "private_seller",
+    "name": "Марія",
+    "lastName": "Ковальчук",
+    "phone": "+380939842850",
+    "city": "Рівне",
+    "rating": 4.7,
+    "registeredAt": "2025-06-10T10:00:00.000Z"
+  },
+  {
+    "id": "user-7",
+    "type": "private_seller",
+    "name": "Катерина",
+    "lastName": "Левченко",
+    "phone": "+380979156016",
+    "city": "Полтава",
+    "rating": 4.6,
+    "registeredAt": "2025-07-21T10:00:00.000Z"
+  },
+  {
+    "id": "user-8",
+    "type": "private_seller",
+    "name": "Максим",
+    "lastName": "Левченко",
+    "phone": "+380932385961",
+    "city": "Івано-Франківськ",
+    "rating": 4.9,
+    "registeredAt": "2025-05-15T10:00:00.000Z"
+  },
+  {
+    "id": "user-9",
+    "type": "private_seller",
+    "name": "Ольга",
+    "lastName": "Баранов",
+    "phone": "+380972229615",
+    "city": "Полтава",
+    "rating": 4.8,
+    "registeredAt": "2025-07-28T10:00:00.000Z"
+  },
+  {
+    "id": "user-10",
+    "type": "private_seller",
+    "name": "Ольга",
+    "lastName": "Коваль",
+    "phone": "+380992479033",
+    "city": "Дніпро",
+    "rating": 4.9,
+    "registeredAt": "2025-06-10T10:00:00.000Z"
+  },
+  {
+    "id": "user-11",
+    "type": "private_seller",
+    "name": "Юрій",
+    "lastName": "Олійник",
+    "phone": "+380999405513",
+    "city": "Вінниця",
+    "rating": 4.8,
+    "registeredAt": "2025-01-19T10:00:00.000Z"
+  },
+  {
+    "id": "user-12",
+    "type": "private_seller",
+    "name": "Віктор",
+    "lastName": "Левченко",
+    "phone": "+380999117009",
+    "city": "Дніпро",
+    "rating": 5.0,
+    "registeredAt": "2025-03-27T10:00:00.000Z"
+  },
+  {
+    "id": "user-13",
+    "type": "private_seller",
+    "name": "Вадим",
+    "lastName": "Лисенко",
+    "phone": "+380671170323",
+    "city": "Тернопіль",
+    "rating": 4.3,
+    "registeredAt": "2025-04-10T10:00:00.000Z"
+  },
+  {
+    "id": "user-14",
+    "type": "private_seller",
+    "name": "Олена",
+    "lastName": "Мороз",
+    "phone": "+380638285817",
+    "city": "Луцьк",
+    "rating": 4.7,
+    "registeredAt": "2025-01-13T10:00:00.000Z"
+  },
+  {
+    "id": "user-15",
+    "type": "private_seller",
+    "name": "Сергій",
+    "lastName": "Савченко",
+    "phone": "+380932489630",
+    "city": "Харків",
+    "rating": 4.3,
+    "registeredAt": "2025-01-27T10:00:00.000Z"
+  },
+  {
+    "id": "user-16",
+    "type": "private_seller",
+    "name": "Денис",
+    "lastName": "Шевченко",
+    "phone": "+380937781472",
+    "city": "Полтава",
+    "rating": 4.2,
+    "registeredAt": "2025-06-18T10:00:00.000Z"
+  },
+  {
+    "id": "user-17",
+    "type": "private_seller",
+    "name": "Марія",
+    "lastName": "Мельник",
+    "phone": "+380637946968",
+    "city": "Полтава",
+    "rating": 4.5,
+    "registeredAt": "2025-03-23T10:00:00.000Z"
+  },
+  {
+    "id": "user-18",
+    "type": "private_seller",
+    "name": "Сергій",
+    "lastName": "Пономаренко",
+    "phone": "+380507242963",
+    "city": "Луцьк",
+    "rating": 4.7,
+    "registeredAt": "2025-02-11T10:00:00.000Z"
+  },
+  {
+    "id": "user-19",
+    "type": "private_seller",
+    "name": "Денис",
+    "lastName": "Клименко",
+    "phone": "+380505885439",
+    "city": "Одеса",
+    "rating": 4.8,
+    "registeredAt": "2025-07-21T10:00:00.000Z"
+  },
+  {
+    "id": "user-20",
+    "type": "private_seller",
+    "name": "Іван",
+    "lastName": "Клименко",
+    "phone": "+380993005988",
+    "city": "Харків",
+    "rating": 4.7,
+    "registeredAt": "2025-07-23T10:00:00.000Z"
+  },
+  {
+    "id": "user-21",
+    "type": "private_seller",
+    "name": "Дмитро",
+    "lastName": "Федоренко",
+    "phone": "+380971345817",
+    "city": "Івано-Франківськ",
+    "rating": 4.5,
+    "registeredAt": "2025-08-19T10:00:00.000Z"
+  },
+  {
+    "id": "user-22",
+    "type": "private_seller",
+    "name": "Світлана",
+    "lastName": "Коваль",
+    "phone": "+380996450184",
+    "city": "Івано-Франківськ",
+    "rating": 4.9,
+    "registeredAt": "2025-09-27T10:00:00.000Z"
+  },
+  {
+    "id": "user-23",
+    "type": "private_seller",
+    "name": "Іван",
+    "lastName": "Баранов",
+    "phone": "+380677190801",
+    "city": "Полтава",
+    "rating": 4.4,
+    "registeredAt": "2025-06-12T10:00:00.000Z"
+  },
+  {
+    "id": "user-24",
+    "type": "private_seller",
+    "name": "Назарій",
+    "lastName": "Савченко",
+    "phone": "+380506403223",
+    "city": "Дніпро",
+    "rating": 4.4,
+    "registeredAt": "2025-01-26T10:00:00.000Z"
+  },
+  {
+    "id": "user-25",
+    "type": "private_seller",
+    "name": "Артем",
+    "lastName": "Ковальчук",
+    "phone": "+380501287901",
+    "city": "Полтава",
+    "rating": 4.4,
+    "registeredAt": "2025-04-12T10:00:00.000Z"
+  },
+  {
+    "id": "user-26",
+    "type": "private_seller",
+    "name": "Володимир",
+    "lastName": "Шевченко",
+    "phone": "+380993239215",
+    "city": "Харків",
+    "rating": 4.9,
+    "registeredAt": "2025-09-14T10:00:00.000Z"
+  },
+  {
+    "id": "user-27",
+    "type": "private_seller",
+    "name": "Марія",
+    "lastName": "Бойко",
+    "phone": "+380675309257",
+    "city": "Вінниця",
+    "rating": 4.8,
+    "registeredAt": "2025-08-20T10:00:00.000Z"
+  },
+  {
+    "id": "user-28",
+    "type": "private_seller",
+    "name": "Катерина",
+    "lastName": "Олійник",
+    "phone": "+380501100002",
+    "city": "Полтава",
+    "rating": 4.9,
+    "registeredAt": "2025-08-20T10:00:00.000Z"
+  },
+  {
+    "id": "user-29",
+    "type": "private_seller",
+    "name": "Михайло",
+    "lastName": "Пономаренко",
+    "phone": "+380638730295",
+    "city": "Київ",
+    "rating": 4.5,
+    "registeredAt": "2025-07-20T10:00:00.000Z"
+  },
+  {
+    "id": "user-30",
+    "type": "private_seller",
+    "name": "Юрій",
+    "lastName": "Ковальчук",
+    "phone": "+380634229112",
+    "city": "Тернопіль",
+    "rating": 4.9,
+    "registeredAt": "2025-03-22T10:00:00.000Z"
+  },
+  {
+    "id": "user-31",
+    "type": "private_seller",
+    "name": "Дмитро",
+    "lastName": "Руденко",
+    "phone": "+380995454002",
+    "city": "Вінниця",
+    "rating": 4.9,
+    "registeredAt": "2025-03-27T10:00:00.000Z"
+  },
+  {
+    "id": "user-32",
+    "type": "private_seller",
+    "name": "Денис",
+    "lastName": "Мороз",
+    "phone": "+380633052302",
+    "city": "Львів",
+    "rating": 4.9,
+    "registeredAt": "2025-09-20T10:00:00.000Z"
+  }
+]
