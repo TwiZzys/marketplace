@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "part-1",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "suspension",
+    "brand": "KYB",
+    "model": "Деталь #1 для ТО та ремонту",
+    "partNumber": "PART-REF-00001",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 411,
+    "currency": "USD",
+    "city": "Чернігів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-22T08:35:00.000Z",
+    "isActive": true,
+    "viewsCount": 36,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду KYB з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/1.jpg"
+    ],
+    "sellerId": "dealer-27"
+  },
+  {
+    "id": "part-2",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #2 для ТО та ремонту",
+    "partNumber": "PART-REF-00002",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 512,
+    "currency": "USD",
+    "city": "Львів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-22T10:57:00.000Z",
+    "isActive": true,
+    "viewsCount": 31,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/2.jpg"
+    ],
+    "sellerId": "dealer-4"
+  },
+  {
+    "id": "part-3",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #3 для ТО та ремонту",
+    "partNumber": "PART-REF-00003",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 117,
+    "currency": "USD",
+    "city": "Житомир",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-07T20:15:00.000Z",
+    "isActive": true,
+    "viewsCount": 117,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/3.jpg"
+    ],
+    "sellerId": "dealer-21"
+  },
+  {
+    "id": "part-4",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "brakes",
+    "brand": "Textar",
+    "model": "Деталь #4 для ТО та ремонту",
+    "partNumber": "PART-REF-00004",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 240,
+    "currency": "USD",
+    "city": "Кропивницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-23T17:02:00.000Z",
+    "isActive": true,
+    "viewsCount": 30,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Textar з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/4.jpg"
+    ],
+    "sellerId": "dealer-37"
+  },
+  {
+    "id": "part-5",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #5 для ТО та ремонту",
+    "partNumber": "PART-REF-00005",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 775,
+    "currency": "USD",
+    "city": "Дніпро",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-25T19:08:00.000Z",
+    "isActive": true,
+    "viewsCount": 127,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/5.jpg"
+    ],
+    "sellerId": "dealer-33"
+  },
+  {
+    "id": "part-6",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #6 для ТО та ремонту",
+    "partNumber": "PART-REF-00006",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 572,
+    "currency": "USD",
+    "city": "Херсон",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-18T13:24:00.000Z",
+    "isActive": true,
+    "viewsCount": 125,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/6.jpg"
+    ],
+    "sellerId": "dealer-45"
+  },
+  {
+    "id": "part-7",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "transmission",
+    "brand": "Exedy",
+    "model": "Деталь #7 для ТО та ремонту",
+    "partNumber": "PART-REF-00007",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 484,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-28T18:24:00.000Z",
+    "isActive": true,
+    "viewsCount": 17,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Exedy з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/7.jpg"
+    ],
+    "sellerId": "dealer-41"
+  },
+  {
+    "id": "part-8",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #8 для ТО та ремонту",
+    "partNumber": "PART-REF-00008",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 642,
+    "currency": "USD",
+    "city": "Полтава",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-14T13:37:00.000Z",
+    "isActive": true,
+    "viewsCount": 123,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/8.jpg"
+    ],
+    "sellerId": "dealer-29"
+  },
+  {
+    "id": "part-9",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #9 для ТО та ремонту",
+    "partNumber": "PART-REF-00009",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 500,
+    "currency": "USD",
+    "city": "Тернопіль",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-01-24T10:47:00.000Z",
+    "isActive": true,
+    "viewsCount": 28,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/9.jpg"
+    ],
+    "sellerId": "dealer-9"
+  },
+  {
+    "id": "part-10",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #10 для ТО та ремонту",
+    "partNumber": "PART-REF-00010",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 191,
+    "currency": "USD",
+    "city": "Вінниця",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-01-21T16:33:00.000Z",
+    "isActive": true,
+    "viewsCount": 74,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/10.jpg"
+    ],
+    "sellerId": "dealer-23"
+  },
+  {
+    "id": "part-11",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #11 для ТО та ремонту",
+    "partNumber": "PART-REF-00011",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 820,
+    "currency": "USD",
+    "city": "Кропивницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-13T08:48:00.000Z",
+    "isActive": true,
+    "viewsCount": 74,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/11.jpg"
+    ],
+    "sellerId": "dealer-38"
+  },
+  {
+    "id": "part-12",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Ferodo",
+    "model": "Деталь #12 для ТО та ремонту",
+    "partNumber": "PART-REF-00012",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 682,
+    "currency": "USD",
+    "city": "Івано-Франківськ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-26T09:44:00.000Z",
+    "isActive": true,
+    "viewsCount": 68,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Ferodo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/12.jpg"
+    ],
+    "sellerId": "dealer-7"
+  },
+  {
+    "id": "part-13",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "suspension",
+    "brand": "KYB",
+    "model": "Деталь #13 для ТО та ремонту",
+    "partNumber": "PART-REF-00013",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 492,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-16T15:38:00.000Z",
+    "isActive": true,
+    "viewsCount": 139,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду KYB з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/13.jpg"
+    ],
+    "sellerId": "dealer-42"
+  },
+  {
+    "id": "part-14",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "brakes",
+    "brand": "Ferodo",
+    "model": "Деталь #14 для ТО та ремонту",
+    "partNumber": "PART-REF-00014",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 802,
+    "currency": "USD",
+    "city": "Житомир",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-03-05T16:22:00.000Z",
+    "isActive": true,
+    "viewsCount": 7,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Ferodo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/14.jpg"
+    ],
+    "sellerId": "dealer-22"
+  },
+  {
+    "id": "part-15",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "transmission",
+    "brand": "LuK",
+    "model": "Деталь #15 для ТО та ремонту",
+    "partNumber": "PART-REF-00015",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 96,
+    "currency": "USD",
+    "city": "Хмельницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-11T12:32:00.000Z",
+    "isActive": true,
+    "viewsCount": 76,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду LuK з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/15.jpg"
+    ],
+    "sellerId": "dealer-20"
+  },
+  {
+    "id": "part-16",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #16 для ТО та ремонту",
+    "partNumber": "PART-REF-00016",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 670,
+    "currency": "USD",
+    "city": "Миколаїв",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-12T08:58:00.000Z",
+    "isActive": true,
+    "viewsCount": 123,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/16.jpg"
+    ],
+    "sellerId": "dealer-44"
+  },
+  {
+    "id": "part-17",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "brakes",
+    "brand": "Ferodo",
+    "model": "Деталь #17 для ТО та ремонту",
+    "partNumber": "PART-REF-00017",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 598,
+    "currency": "USD",
+    "city": "Харків",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-14T11:03:00.000Z",
+    "isActive": true,
+    "viewsCount": 125,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Ferodo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/17.jpg"
+    ],
+    "sellerId": "dealer-39"
+  },
+  {
+    "id": "part-18",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "suspension",
+    "brand": "Sachs",
+    "model": "Деталь #18 для ТО та ремонту",
+    "partNumber": "PART-REF-00018",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 379,
+    "currency": "USD",
+    "city": "Хмельницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-30T17:41:00.000Z",
+    "isActive": true,
+    "viewsCount": 17,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/18.jpg"
+    ],
+    "sellerId": "dealer-19"
+  },
+  {
+    "id": "part-19",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #19 для ТО та ремонту",
+    "partNumber": "PART-REF-00019",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 468,
+    "currency": "USD",
+    "city": "Хмельницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-29T19:59:00.000Z",
+    "isActive": true,
+    "viewsCount": 76,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/19.jpg"
+    ],
+    "sellerId": "dealer-20"
+  },
+  {
+    "id": "part-20",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "transmission",
+    "brand": "LuK",
+    "model": "Деталь #20 для ТО та ремонту",
+    "partNumber": "PART-REF-00020",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 404,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-02T08:37:00.000Z",
+    "isActive": true,
+    "viewsCount": 118,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду LuK з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/20.jpg"
+    ],
+    "sellerId": "dealer-1"
+  },
+  {
+    "id": "part-21",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #21 для ТО та ремонту",
+    "partNumber": "PART-REF-00021",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 519,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-17T19:19:00.000Z",
+    "isActive": true,
+    "viewsCount": 53,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/21.jpg"
+    ],
+    "sellerId": "dealer-42"
+  },
+  {
+    "id": "part-22",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "suspension",
+    "brand": "Sachs",
+    "model": "Деталь #22 для ТО та ремонту",
+    "partNumber": "PART-REF-00022",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 218,
+    "currency": "USD",
+    "city": "Львів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-18T13:42:00.000Z",
+    "isActive": true,
+    "viewsCount": 94,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/22.jpg"
+    ],
+    "sellerId": "dealer-5"
+  },
+  {
+    "id": "part-23",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "transmission",
+    "brand": "LuK",
+    "model": "Деталь #23 для ТО та ремонту",
+    "partNumber": "PART-REF-00023",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 288,
+    "currency": "USD",
+    "city": "Львів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-30T08:29:00.000Z",
+    "isActive": true,
+    "viewsCount": 80,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду LuK з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/23.jpg"
+    ],
+    "sellerId": "dealer-6"
+  },
+  {
+    "id": "part-24",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #24 для ТО та ремонту",
+    "partNumber": "PART-REF-00024",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 639,
+    "currency": "USD",
+    "city": "Луцьк",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-23T18:23:00.000Z",
+    "isActive": true,
+    "viewsCount": 20,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/24.jpg"
+    ],
+    "sellerId": "dealer-13"
+  },
+  {
+    "id": "part-25",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "brakes",
+    "brand": "Zimmermann",
+    "model": "Деталь #25 для ТО та ремонту",
+    "partNumber": "PART-REF-00025",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 812,
+    "currency": "USD",
+    "city": "Херсон",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-05T13:20:00.000Z",
+    "isActive": true,
+    "viewsCount": 125,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Zimmermann з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/25.jpg"
+    ],
+    "sellerId": "dealer-45"
+  },
+  {
+    "id": "part-26",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #26 для ТО та ремонту",
+    "partNumber": "PART-REF-00026",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 238,
+    "currency": "USD",
+    "city": "Харків",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-01T17:06:00.000Z",
+    "isActive": true,
+    "viewsCount": 117,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/26.jpg"
+    ],
+    "sellerId": "dealer-39"
+  },
+  {
+    "id": "part-27",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "brakes",
+    "brand": "Textar",
+    "model": "Деталь #27 для ТО та ремонту",
+    "partNumber": "PART-REF-00027",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 642,
+    "currency": "USD",
+    "city": "Полтава",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-28T13:30:00.000Z",
+    "isActive": true,
+    "viewsCount": 65,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Textar з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/27.jpg"
+    ],
+    "sellerId": "dealer-29"
+  },
+  {
+    "id": "part-28",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "suspension",
+    "brand": "KYB",
+    "model": "Деталь #28 для ТО та ремонту",
+    "partNumber": "PART-REF-00028",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 42,
+    "currency": "USD",
+    "city": "Рівне",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-03T09:32:00.000Z",
+    "isActive": true,
+    "viewsCount": 9,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду KYB з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/28.jpg"
+    ],
+    "sellerId": "dealer-11"
+  },
+  {
+    "id": "part-29",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "brakes",
+    "brand": "Textar",
+    "model": "Деталь #29 для ТО та ремонту",
+    "partNumber": "PART-REF-00029",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 702,
+    "currency": "USD",
+    "city": "Хмельницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-21T11:56:00.000Z",
+    "isActive": true,
+    "viewsCount": 84,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Textar з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/29.jpg"
+    ],
+    "sellerId": "dealer-20"
+  },
+  {
+    "id": "part-30",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "filters",
+    "brand": "Mann-Filter",
+    "model": "Деталь #30 для ТО та ремонту",
+    "partNumber": "PART-REF-00030",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 388,
+    "currency": "USD",
+    "city": "Харків",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-14T18:32:00.000Z",
+    "isActive": true,
+    "viewsCount": 67,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mann-Filter з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/30.jpg"
+    ],
+    "sellerId": "dealer-40"
+  },
+  {
+    "id": "part-31",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #31 для ТО та ремонту",
+    "partNumber": "PART-REF-00031",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 763,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-01-01T09:48:00.000Z",
+    "isActive": true,
+    "viewsCount": 64,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/31.jpg"
+    ],
+    "sellerId": "dealer-2"
+  },
+  {
+    "id": "part-32",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "filters",
+    "brand": "Mahle",
+    "model": "Деталь #32 для ТО та ремонту",
+    "partNumber": "PART-REF-00032",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 406,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-06T17:06:00.000Z",
+    "isActive": true,
+    "viewsCount": 52,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mahle з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/32.jpg"
+    ],
+    "sellerId": "dealer-1"
+  },
+  {
+    "id": "part-33",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "exhaust",
+    "brand": "Remus",
+    "model": "Деталь #33 для ТО та ремонту",
+    "partNumber": "PART-REF-00033",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 503,
+    "currency": "USD",
+    "city": "Харків",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-04T08:01:00.000Z",
+    "isActive": true,
+    "viewsCount": 14,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Remus з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/33.jpg"
+    ],
+    "sellerId": "dealer-40"
+  },
+  {
+    "id": "part-34",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "suspension",
+    "brand": "KYB",
+    "model": "Деталь #34 для ТО та ремонту",
+    "partNumber": "PART-REF-00034",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 515,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-29T19:51:00.000Z",
+    "isActive": true,
+    "viewsCount": 13,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду KYB з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/34.jpg"
+    ],
+    "sellerId": "dealer-3"
+  },
+  {
+    "id": "part-35",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #35 для ТО та ремонту",
+    "partNumber": "PART-REF-00035",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 22,
+    "currency": "USD",
+    "city": "Луцьк",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-25T18:45:00.000Z",
+    "isActive": true,
+    "viewsCount": 83,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/35.jpg"
+    ],
+    "sellerId": "dealer-13"
+  },
+  {
+    "id": "part-36",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "suspension",
+    "brand": "Bilstein",
+    "model": "Деталь #36 для ТО та ремонту",
+    "partNumber": "PART-REF-00036",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 253,
+    "currency": "USD",
+    "city": "Суми",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-03T18:02:00.000Z",
+    "isActive": true,
+    "viewsCount": 149,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bilstein з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/36.jpg"
+    ],
+    "sellerId": "dealer-32"
+  },
+  {
+    "id": "part-37",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "brakes",
+    "brand": "Textar",
+    "model": "Деталь #37 для ТО та ремонту",
+    "partNumber": "PART-REF-00037",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 565,
+    "currency": "USD",
+    "city": "Чернівці",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-23T16:54:00.000Z",
+    "isActive": true,
+    "viewsCount": 92,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Textar з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/37.jpg"
+    ],
+    "sellerId": "dealer-16"
+  },
+  {
+    "id": "part-38",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #38 для ТО та ремонту",
+    "partNumber": "PART-REF-00038",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 65,
+    "currency": "USD",
+    "city": "Львів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-26T15:37:00.000Z",
+    "isActive": true,
+    "viewsCount": 64,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/38.jpg"
+    ],
+    "sellerId": "dealer-6"
+  },
+  {
+    "id": "part-39",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "transmission",
+    "brand": "LuK",
+    "model": "Деталь #39 для ТО та ремонту",
+    "partNumber": "PART-REF-00039",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 312,
+    "currency": "USD",
+    "city": "Полтава",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-25T17:17:00.000Z",
+    "isActive": true,
+    "viewsCount": 55,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду LuK з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/39.jpg"
+    ],
+    "sellerId": "dealer-29"
+  },
+  {
+    "id": "part-40",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #40 для ТО та ремонту",
+    "partNumber": "PART-REF-00040",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 76,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-03-19T20:53:00.000Z",
+    "isActive": true,
+    "viewsCount": 105,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/40.jpg"
+    ],
+    "sellerId": "dealer-42"
+  },
+  {
+    "id": "part-41",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "filters",
+    "brand": "Mahle",
+    "model": "Деталь #41 для ТО та ремонту",
+    "partNumber": "PART-REF-00041",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 82,
+    "currency": "USD",
+    "city": "Житомир",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-16T20:29:00.000Z",
+    "isActive": true,
+    "viewsCount": 76,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mahle з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/41.jpg"
+    ],
+    "sellerId": "dealer-22"
+  },
+  {
+    "id": "part-42",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #42 для ТО та ремонту",
+    "partNumber": "PART-REF-00042",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 358,
+    "currency": "USD",
+    "city": "Запоріжжя",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-25T10:41:00.000Z",
+    "isActive": true,
+    "viewsCount": 94,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/42.jpg"
+    ],
+    "sellerId": "dealer-36"
+  },
+  {
+    "id": "part-43",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #43 для ТО та ремонту",
+    "partNumber": "PART-REF-00043",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 691,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-11T12:10:00.000Z",
+    "isActive": true,
+    "viewsCount": 78,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/43.jpg"
+    ],
+    "sellerId": "dealer-41"
+  },
+  {
+    "id": "part-44",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #44 для ТО та ремонту",
+    "partNumber": "PART-REF-00044",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 411,
+    "currency": "USD",
+    "city": "Львів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-01-29T19:48:00.000Z",
+    "isActive": true,
+    "viewsCount": 26,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/44.jpg"
+    ],
+    "sellerId": "dealer-4"
+  },
+  {
+    "id": "part-45",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #45 для ТО та ремонту",
+    "partNumber": "PART-REF-00045",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 817,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-08T20:40:00.000Z",
+    "isActive": true,
+    "viewsCount": 43,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/45.jpg"
+    ],
+    "sellerId": "dealer-3"
+  },
+  {
+    "id": "part-46",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #46 для ТО та ремонту",
+    "partNumber": "PART-REF-00046",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 137,
+    "currency": "USD",
+    "city": "Тернопіль",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-19T12:42:00.000Z",
+    "isActive": true,
+    "viewsCount": 132,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/46.jpg"
+    ],
+    "sellerId": "dealer-10"
+  },
+  {
+    "id": "part-47",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #47 для ТО та ремонту",
+    "partNumber": "PART-REF-00047",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 320,
+    "currency": "USD",
+    "city": "Дніпро",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-25T13:41:00.000Z",
+    "isActive": true,
+    "viewsCount": 146,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/47.jpg"
+    ],
+    "sellerId": "dealer-33"
+  },
+  {
+    "id": "part-48",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #48 для ТО та ремонту",
+    "partNumber": "PART-REF-00048",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 481,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-29T14:28:00.000Z",
+    "isActive": true,
+    "viewsCount": 29,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/48.jpg"
+    ],
+    "sellerId": "dealer-3"
+  },
+  {
+    "id": "part-49",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "suspension",
+    "brand": "KYB",
+    "model": "Деталь #49 для ТО та ремонту",
+    "partNumber": "PART-REF-00049",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 100,
+    "currency": "USD",
+    "city": "Хмельницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-29T11:25:00.000Z",
+    "isActive": true,
+    "viewsCount": 66,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду KYB з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/49.jpg"
+    ],
+    "sellerId": "dealer-20"
+  },
+  {
+    "id": "part-50",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "suspension",
+    "brand": "Sachs",
+    "model": "Деталь #50 для ТО та ремонту",
+    "partNumber": "PART-REF-00050",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 217,
+    "currency": "USD",
+    "city": "Дніпро",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-14T19:58:00.000Z",
+    "isActive": true,
+    "viewsCount": 125,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/50.jpg"
+    ],
+    "sellerId": "dealer-33"
+  },
+  {
+    "id": "part-51",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Ferodo",
+    "model": "Деталь #51 для ТО та ремонту",
+    "partNumber": "PART-REF-00051",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 768,
+    "currency": "USD",
+    "city": "Дніпро",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-19T12:54:00.000Z",
+    "isActive": true,
+    "viewsCount": 127,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Ferodo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/51.jpg"
+    ],
+    "sellerId": "dealer-33"
+  },
+  {
+    "id": "part-52",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #52 для ТО та ремонту",
+    "partNumber": "PART-REF-00052",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 450,
+    "currency": "USD",
+    "city": "Полтава",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-24T19:03:00.000Z",
+    "isActive": true,
+    "viewsCount": 103,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/52.jpg"
+    ],
+    "sellerId": "dealer-29"
+  },
+  {
+    "id": "part-53",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "exhaust",
+    "brand": "Remus",
+    "model": "Деталь #53 для ТО та ремонту",
+    "partNumber": "PART-REF-00053",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 214,
+    "currency": "USD",
+    "city": "Львів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-03T16:33:00.000Z",
+    "isActive": true,
+    "viewsCount": 6,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Remus з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/53.jpg"
+    ],
+    "sellerId": "dealer-4"
+  },
+  {
+    "id": "part-54",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #54 для ТО та ремонту",
+    "partNumber": "PART-REF-00054",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 260,
+    "currency": "USD",
+    "city": "Кропивницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-07T16:04:00.000Z",
+    "isActive": true,
+    "viewsCount": 26,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/54.jpg"
+    ],
+    "sellerId": "dealer-38"
+  },
+  {
+    "id": "part-55",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #55 для ТО та ремонту",
+    "partNumber": "PART-REF-00055",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 29,
+    "currency": "USD",
+    "city": "Запоріжжя",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-01T12:59:00.000Z",
+    "isActive": true,
+    "viewsCount": 107,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/55.jpg"
+    ],
+    "sellerId": "dealer-36"
+  },
+  {
+    "id": "part-56",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "suspension",
+    "brand": "Sachs",
+    "model": "Деталь #56 для ТО та ремонту",
+    "partNumber": "PART-REF-00056",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 214,
+    "currency": "USD",
+    "city": "Суми",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-16T15:20:00.000Z",
+    "isActive": true,
+    "viewsCount": 7,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/56.jpg"
+    ],
+    "sellerId": "dealer-31"
+  },
+  {
+    "id": "part-57",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "transmission",
+    "brand": "Exedy",
+    "model": "Деталь #57 для ТО та ремонту",
+    "partNumber": "PART-REF-00057",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 160,
+    "currency": "USD",
+    "city": "Рівне",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-12T18:28:00.000Z",
+    "isActive": true,
+    "viewsCount": 18,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Exedy з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/57.jpg"
+    ],
+    "sellerId": "dealer-11"
+  },
+  {
+    "id": "part-58",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #58 для ТО та ремонту",
+    "partNumber": "PART-REF-00058",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 67,
+    "currency": "USD",
+    "city": "Луцьк",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-03-17T11:11:00.000Z",
+    "isActive": true,
+    "viewsCount": 126,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/58.jpg"
+    ],
+    "sellerId": "dealer-13"
+  },
+  {
+    "id": "part-59",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "suspension",
+    "brand": "Bilstein",
+    "model": "Деталь #59 для ТО та ремонту",
+    "partNumber": "PART-REF-00059",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 258,
+    "currency": "USD",
+    "city": "Чернівці",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-11T17:28:00.000Z",
+    "isActive": true,
+    "viewsCount": 43,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bilstein з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/59.jpg"
+    ],
+    "sellerId": "dealer-15"
+  },
+  {
+    "id": "part-60",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "filters",
+    "brand": "Mahle",
+    "model": "Деталь #60 для ТО та ремонту",
+    "partNumber": "PART-REF-00060",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 735,
+    "currency": "USD",
+    "city": "Чернівці",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-04T14:06:00.000Z",
+    "isActive": true,
+    "viewsCount": 121,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mahle з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/60.jpg"
+    ],
+    "sellerId": "dealer-16"
+  },
+  {
+    "id": "part-61",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "transmission",
+    "brand": "Exedy",
+    "model": "Деталь #61 для ТО та ремонту",
+    "partNumber": "PART-REF-00061",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 639,
+    "currency": "USD",
+    "city": "Ужгород",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-21T13:52:00.000Z",
+    "isActive": true,
+    "viewsCount": 14,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Exedy з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/61.jpg"
+    ],
+    "sellerId": "dealer-17"
+  },
+  {
+    "id": "part-62",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "brakes",
+    "brand": "Zimmermann",
+    "model": "Деталь #62 для ТО та ремонту",
+    "partNumber": "PART-REF-00062",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 190,
+    "currency": "USD",
+    "city": "Вінниця",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-17T08:50:00.000Z",
+    "isActive": true,
+    "viewsCount": 90,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Zimmermann з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/62.jpg"
+    ],
+    "sellerId": "dealer-23"
+  },
+  {
+    "id": "part-63",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "suspension",
+    "brand": "Sachs",
+    "model": "Деталь #63 для ТО та ремонту",
+    "partNumber": "PART-REF-00063",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 45,
+    "currency": "USD",
+    "city": "Івано-Франківськ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-25T19:27:00.000Z",
+    "isActive": true,
+    "viewsCount": 57,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/63.jpg"
+    ],
+    "sellerId": "dealer-8"
+  },
+  {
+    "id": "part-64",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #64 для ТО та ремонту",
+    "partNumber": "PART-REF-00064",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 821,
+    "currency": "USD",
+    "city": "Тернопіль",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-24T09:06:00.000Z",
+    "isActive": true,
+    "viewsCount": 36,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/64.jpg"
+    ],
+    "sellerId": "dealer-10"
+  },
+  {
+    "id": "part-65",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "suspension",
+    "brand": "Bilstein",
+    "model": "Деталь #65 для ТО та ремонту",
+    "partNumber": "PART-REF-00065",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 683,
+    "currency": "USD",
+    "city": "Запоріжжя",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-22T11:05:00.000Z",
+    "isActive": true,
+    "viewsCount": 18,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bilstein з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/65.jpg"
+    ],
+    "sellerId": "dealer-36"
+  },
+  {
+    "id": "part-66",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "transmission",
+    "brand": "LuK",
+    "model": "Деталь #66 для ТО та ремонту",
+    "partNumber": "PART-REF-00066",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 638,
+    "currency": "USD",
+    "city": "Вінниця",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-15T08:45:00.000Z",
+    "isActive": true,
+    "viewsCount": 8,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду LuK з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/66.jpg"
+    ],
+    "sellerId": "dealer-23"
+  },
+  {
+    "id": "part-67",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "transmission",
+    "brand": "Exedy",
+    "model": "Деталь #67 для ТО та ремонту",
+    "partNumber": "PART-REF-00067",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 798,
+    "currency": "USD",
+    "city": "Львів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-30T16:29:00.000Z",
+    "isActive": true,
+    "viewsCount": 60,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Exedy з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/67.jpg"
+    ],
+    "sellerId": "dealer-4"
+  },
+  {
+    "id": "part-68",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #68 для ТО та ремонту",
+    "partNumber": "PART-REF-00068",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 529,
+    "currency": "USD",
+    "city": "Полтава",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-15T17:43:00.000Z",
+    "isActive": true,
+    "viewsCount": 31,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/68.jpg"
+    ],
+    "sellerId": "dealer-30"
+  },
+  {
+    "id": "part-69",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "transmission",
+    "brand": "LuK",
+    "model": "Деталь #69 для ТО та ремонту",
+    "partNumber": "PART-REF-00069",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 63,
+    "currency": "USD",
+    "city": "Полтава",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-08T17:45:00.000Z",
+    "isActive": true,
+    "viewsCount": 145,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду LuK з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/69.jpg"
+    ],
+    "sellerId": "dealer-29"
+  },
+  {
+    "id": "part-70",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "suspension",
+    "brand": "Sachs",
+    "model": "Деталь #70 для ТО та ремонту",
+    "partNumber": "PART-REF-00070",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 651,
+    "currency": "USD",
+    "city": "Житомир",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-02T09:39:00.000Z",
+    "isActive": true,
+    "viewsCount": 39,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/70.jpg"
+    ],
+    "sellerId": "dealer-21"
+  },
+  {
+    "id": "part-71",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "suspension",
+    "brand": "KYB",
+    "model": "Деталь #71 для ТО та ремонту",
+    "partNumber": "PART-REF-00071",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 96,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-15T15:02:00.000Z",
+    "isActive": true,
+    "viewsCount": 75,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду KYB з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/71.jpg"
+    ],
+    "sellerId": "dealer-41"
+  },
+  {
+    "id": "part-72",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "filters",
+    "brand": "Mann-Filter",
+    "model": "Деталь #72 для ТО та ремонту",
+    "partNumber": "PART-REF-00072",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 352,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-25T12:52:00.000Z",
+    "isActive": true,
+    "viewsCount": 99,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mann-Filter з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/72.jpg"
+    ],
+    "sellerId": "dealer-1"
+  },
+  {
+    "id": "part-73",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "transmission",
+    "brand": "Sachs",
+    "model": "Деталь #73 для ТО та ремонту",
+    "partNumber": "PART-REF-00073",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 274,
+    "currency": "USD",
+    "city": "Луцьк",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-19T09:53:00.000Z",
+    "isActive": true,
+    "viewsCount": 77,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/73.jpg"
+    ],
+    "sellerId": "dealer-14"
+  },
+  {
+    "id": "part-74",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "exhaust",
+    "brand": "Remus",
+    "model": "Деталь #74 для ТО та ремонту",
+    "partNumber": "PART-REF-00074",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 45,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-22T16:26:00.000Z",
+    "isActive": true,
+    "viewsCount": 131,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Remus з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/74.jpg"
+    ],
+    "sellerId": "dealer-1"
+  },
+  {
+    "id": "part-75",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #75 для ТО та ремонту",
+    "partNumber": "PART-REF-00075",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 317,
+    "currency": "USD",
+    "city": "Хмельницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-18T10:19:00.000Z",
+    "isActive": true,
+    "viewsCount": 18,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/75.jpg"
+    ],
+    "sellerId": "dealer-19"
+  },
+  {
+    "id": "part-76",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #76 для ТО та ремонту",
+    "partNumber": "PART-REF-00076",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 533,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-01-08T14:09:00.000Z",
+    "isActive": true,
+    "viewsCount": 115,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/76.jpg"
+    ],
+    "sellerId": "dealer-2"
+  },
+  {
+    "id": "part-77",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Zimmermann",
+    "model": "Деталь #77 для ТО та ремонту",
+    "partNumber": "PART-REF-00077",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 761,
+    "currency": "USD",
+    "city": "Чернігів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-20T10:13:00.000Z",
+    "isActive": true,
+    "viewsCount": 148,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Zimmermann з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/77.jpg"
+    ],
+    "sellerId": "dealer-27"
+  },
+  {
+    "id": "part-78",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #78 для ТО та ремонту",
+    "partNumber": "PART-REF-00078",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 643,
+    "currency": "USD",
+    "city": "Житомир",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-25T17:51:00.000Z",
+    "isActive": true,
+    "viewsCount": 120,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/78.jpg"
+    ],
+    "sellerId": "dealer-21"
+  },
+  {
+    "id": "part-79",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "suspension",
+    "brand": "Bilstein",
+    "model": "Деталь #79 для ТО та ремонту",
+    "partNumber": "PART-REF-00079",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 573,
+    "currency": "USD",
+    "city": "Миколаїв",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-04T08:58:00.000Z",
+    "isActive": true,
+    "viewsCount": 53,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bilstein з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/79.jpg"
+    ],
+    "sellerId": "dealer-44"
+  },
+  {
+    "id": "part-80",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "transmission",
+    "brand": "LuK",
+    "model": "Деталь #80 для ТО та ремонту",
+    "partNumber": "PART-REF-00080",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 240,
+    "currency": "USD",
+    "city": "Івано-Франківськ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-11T20:57:00.000Z",
+    "isActive": true,
+    "viewsCount": 16,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду LuK з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/80.jpg"
+    ],
+    "sellerId": "dealer-8"
+  },
+  {
+    "id": "part-81",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #81 для ТО та ремонту",
+    "partNumber": "PART-REF-00081",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 610,
+    "currency": "USD",
+    "city": "Полтава",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-14T20:16:00.000Z",
+    "isActive": true,
+    "viewsCount": 45,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/81.jpg"
+    ],
+    "sellerId": "dealer-29"
+  },
+  {
+    "id": "part-82",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "filters",
+    "brand": "Mahle",
+    "model": "Деталь #82 для ТО та ремонту",
+    "partNumber": "PART-REF-00082",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 729,
+    "currency": "USD",
+    "city": "Рівне",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-19T12:37:00.000Z",
+    "isActive": true,
+    "viewsCount": 93,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mahle з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/82.jpg"
+    ],
+    "sellerId": "dealer-11"
+  },
+  {
+    "id": "part-83",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "brakes",
+    "brand": "Zimmermann",
+    "model": "Деталь #83 для ТО та ремонту",
+    "partNumber": "PART-REF-00083",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 179,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-19T16:44:00.000Z",
+    "isActive": true,
+    "viewsCount": 69,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Zimmermann з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/83.jpg"
+    ],
+    "sellerId": "dealer-41"
+  },
+  {
+    "id": "part-84",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "filters",
+    "brand": "Bosch",
+    "model": "Деталь #84 для ТО та ремонту",
+    "partNumber": "PART-REF-00084",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 349,
+    "currency": "USD",
+    "city": "Чернігів",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-15T20:41:00.000Z",
+    "isActive": true,
+    "viewsCount": 105,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bosch з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/84.jpg"
+    ],
+    "sellerId": "dealer-28"
+  },
+  {
+    "id": "part-85",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "suspension",
+    "brand": "KYB",
+    "model": "Деталь #85 для ТО та ремонту",
+    "partNumber": "PART-REF-00085",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 754,
+    "currency": "USD",
+    "city": "Миколаїв",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-03-23T16:58:00.000Z",
+    "isActive": true,
+    "viewsCount": 116,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду KYB з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/85.jpg"
+    ],
+    "sellerId": "dealer-43"
+  },
+  {
+    "id": "part-86",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "transmission",
+    "brand": "Sachs",
+    "model": "Деталь #86 для ТО та ремонту",
+    "partNumber": "PART-REF-00086",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 217,
+    "currency": "USD",
+    "city": "Рівне",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-10-14T20:58:00.000Z",
+    "isActive": true,
+    "viewsCount": 39,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/86.jpg"
+    ],
+    "sellerId": "dealer-12"
+  },
+  {
+    "id": "part-87",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "exhaust",
+    "brand": "Remus",
+    "model": "Деталь #87 для ТО та ремонту",
+    "partNumber": "PART-REF-00087",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 759,
+    "currency": "USD",
+    "city": "Хмельницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-01T12:31:00.000Z",
+    "isActive": true,
+    "viewsCount": 111,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Remus з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/87.jpg"
+    ],
+    "sellerId": "dealer-20"
+  },
+  {
+    "id": "part-88",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #88 для ТО та ремонту",
+    "partNumber": "PART-REF-00088",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 496,
+    "currency": "USD",
+    "city": "Суми",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-04-10T13:11:00.000Z",
+    "isActive": true,
+    "viewsCount": 85,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/88.jpg"
+    ],
+    "sellerId": "dealer-32"
+  },
+  {
+    "id": "part-89",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #89 для ТО та ремонту",
+    "partNumber": "PART-REF-00089",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 361,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-24T17:02:00.000Z",
+    "isActive": true,
+    "viewsCount": 21,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/89.jpg"
+    ],
+    "sellerId": "dealer-2"
+  },
+  {
+    "id": "part-90",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "filters",
+    "brand": "Mann-Filter",
+    "model": "Деталь #90 для ТО та ремонту",
+    "partNumber": "PART-REF-00090",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 165,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-10T12:02:00.000Z",
+    "isActive": true,
+    "viewsCount": 76,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mann-Filter з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/90.jpg"
+    ],
+    "sellerId": "dealer-3"
+  },
+  {
+    "id": "part-91",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #91 для ТО та ремонту",
+    "partNumber": "PART-REF-00091",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 472,
+    "currency": "USD",
+    "city": "Одеса",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-01-03T14:46:00.000Z",
+    "isActive": true,
+    "viewsCount": 85,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/91.jpg"
+    ],
+    "sellerId": "dealer-42"
+  },
+  {
+    "id": "part-92",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "exhaust",
+    "brand": "Akrapovic",
+    "model": "Деталь #92 для ТО та ремонту",
+    "partNumber": "PART-REF-00092",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 681,
+    "currency": "USD",
+    "city": "Дніпро",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-12T12:40:00.000Z",
+    "isActive": true,
+    "viewsCount": 65,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Akrapovic з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/92.jpg"
+    ],
+    "sellerId": "dealer-34"
+  },
+  {
+    "id": "part-93",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #93 для ТО та ремонту",
+    "partNumber": "PART-REF-00093",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 321,
+    "currency": "USD",
+    "city": "Тернопіль",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-08-22T15:20:00.000Z",
+    "isActive": true,
+    "viewsCount": 20,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/93.jpg"
+    ],
+    "sellerId": "dealer-10"
+  },
+  {
+    "id": "part-94",
+    "category": "parts",
+    "targetCategory": "motorcycles",
+    "subCategory": "suspension",
+    "brand": "Sachs",
+    "model": "Деталь #94 для ТО та ремонту",
+    "partNumber": "PART-REF-00094",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 320,
+    "currency": "USD",
+    "city": "Вінниця",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-05-26T13:39:00.000Z",
+    "isActive": true,
+    "viewsCount": 30,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/94.jpg"
+    ],
+    "sellerId": "dealer-24"
+  },
+  {
+    "id": "part-95",
+    "category": "parts",
+    "targetCategory": "trailers",
+    "subCategory": "suspension",
+    "brand": "Bilstein",
+    "model": "Деталь #95 для ТО та ремонту",
+    "partNumber": "PART-REF-00095",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 632,
+    "currency": "USD",
+    "city": "Тернопіль",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-13T20:16:00.000Z",
+    "isActive": true,
+    "viewsCount": 58,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Bilstein з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/95.jpg"
+    ],
+    "sellerId": "dealer-10"
+  },
+  {
+    "id": "part-96",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "transmission",
+    "brand": "Sachs",
+    "model": "Деталь #96 для ТО та ремонту",
+    "partNumber": "PART-REF-00096",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 556,
+    "currency": "USD",
+    "city": "Вінниця",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-02-17T18:27:00.000Z",
+    "isActive": true,
+    "viewsCount": 79,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Sachs з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/96.jpg"
+    ],
+    "sellerId": "dealer-23"
+  },
+  {
+    "id": "part-97",
+    "category": "parts",
+    "targetCategory": "trucks",
+    "subCategory": "engine",
+    "brand": "Garrett",
+    "model": "Деталь #97 для ТО та ремонту",
+    "partNumber": "PART-REF-00097",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 211,
+    "currency": "USD",
+    "city": "Житомир",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-31T16:42:00.000Z",
+    "isActive": true,
+    "viewsCount": 8,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Garrett з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/97.jpg"
+    ],
+    "sellerId": "dealer-22"
+  },
+  {
+    "id": "part-98",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "filters",
+    "brand": "Mahle",
+    "model": "Деталь #98 для ТО та ремонту",
+    "partNumber": "PART-REF-00098",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 716,
+    "currency": "USD",
+    "city": "Кропивницький",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-09-20T19:19:00.000Z",
+    "isActive": true,
+    "viewsCount": 80,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mahle з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/98.jpg"
+    ],
+    "sellerId": "dealer-37"
+  },
+  {
+    "id": "part-99",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "filters",
+    "brand": "Mann-Filter",
+    "model": "Деталь #99 для ТО та ремонту",
+    "partNumber": "PART-REF-00099",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 281,
+    "currency": "USD",
+    "city": "Рівне",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-07-17T13:45:00.000Z",
+    "isActive": true,
+    "viewsCount": 91,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Mann-Filter з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/99.jpg"
+    ],
+    "sellerId": "dealer-11"
+  },
+  {
+    "id": "part-100",
+    "category": "parts",
+    "targetCategory": "cars",
+    "subCategory": "brakes",
+    "brand": "Brembo",
+    "model": "Деталь #100 для ТО та ремонту",
+    "partNumber": "PART-REF-00100",
+    "compatibility": "Універсальна або сумісна згідно каталогу",
+    "year": 2026,
+    "isNew": true,
+    "price": 350,
+    "currency": "USD",
+    "city": "Київ",
+    "region": "Регіон постачальника",
+    "createdAt": "2026-06-02T18:47:00.000Z",
+    "isActive": true,
+    "viewsCount": 68,
+    "isImported": true,
+    "isCustomsCleared": true,
+    "description": "Якісна запчастина бренду Brembo з офіційною гарантією від дистриб'ютора.",
+    "features": [
+      "Оригінал",
+      "Сертифікат якості"
+    ],
+    "images": [
+      "/images/parts/100.jpg"
+    ],
+    "sellerId": "dealer-2"
+  }
+]

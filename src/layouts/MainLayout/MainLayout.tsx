@@ -1,24 +1,26 @@
 import React from 'react';
-import { Header } from '@components/';
+import {Outlet} from 'react-router-dom';
+import {Header} from '@/components/';
+import {Vehicle} from '@/types';
 
 interface MainLayoutProps {
-  children: React.ReactNode;
+  vehicles: Vehicle[];
 }
 
-export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
+export const MainLayout: React.FC<MainLayoutProps> = ({vehicles}) => {
   return (
     <>
-      <Header />
+      <Header vehicles={vehicles}/>
+
       <main className="main">
         <div className="container">
-          {children}
+          <Outlet context={{vehicles}}/>
         </div>
       </main>
 
       <footer className="footer">
         <div className="container">
-          {/* Заглушка футера */}
-          <p>© 2026 Cars Marketplace</p>
+          FOOTER
         </div>
       </footer>
     </>

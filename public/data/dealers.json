@@ -1,0 +1,722 @@
+[
+  {
+    "id": "dealer-1",
+    "type": "official_dealer",
+    "name": "Автоцентр Kia Суми",
+    "brandFocus": [
+      "Kia"
+    ],
+    "city": "Суми",
+    "region": "Сумська область",
+    "address": "вул. Автомобільна, 4",
+    "phone": "+380445614226",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://kia-суми.ua"
+  },
+  {
+    "id": "dealer-2",
+    "type": "official_dealer",
+    "name": "Toyota Центр Київ",
+    "brandFocus": [
+      "Toyota"
+    ],
+    "city": "Київ",
+    "region": "Київська область",
+    "address": "вул. Автомобільна, 95",
+    "phone": "+380442719583",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://toyota-київ.ua"
+  },
+  {
+    "id": "dealer-3",
+    "type": "official_dealer",
+    "name": "Автоцентр Solaris Івано-Франківськ",
+    "brandFocus": [
+      "Solaris"
+    ],
+    "city": "Івано-Франківськ",
+    "region": "Івано-Франківська область",
+    "address": "вул. Автомобільна, 76",
+    "phone": "+380448078673",
+    "rating": 4.6,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://solaris-івано-франківськ.ua"
+  },
+  {
+    "id": "dealer-4",
+    "type": "official_dealer",
+    "name": "Автоцентр Volkswagen Івано-Франківськ",
+    "brandFocus": [
+      "Volkswagen"
+    ],
+    "city": "Івано-Франківськ",
+    "region": "Івано-Франківська область",
+    "address": "вул. Автомобільна, 28",
+    "phone": "+380444903402",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://volkswagen-івано-франківськ.ua"
+  },
+  {
+    "id": "dealer-5",
+    "type": "official_dealer",
+    "name": "Автоцентр Suzuki Суми",
+    "brandFocus": [
+      "Suzuki"
+    ],
+    "city": "Суми",
+    "region": "Сумська область",
+    "address": "вул. Автомобільна, 72",
+    "phone": "+380444335942",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://suzuki-суми.ua"
+  },
+  {
+    "id": "dealer-6",
+    "type": "official_dealer",
+    "name": "Офіційний дилер BMW Полтава",
+    "brandFocus": [
+      "BMW"
+    ],
+    "city": "Полтава",
+    "region": "Полтавська область",
+    "address": "вул. Автомобільна, 29",
+    "phone": "+380448536477",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://bmw-полтава.ua"
+  },
+  {
+    "id": "dealer-7",
+    "type": "official_dealer",
+    "name": "Автоцентр BMW Луцьк",
+    "brandFocus": [
+      "BMW"
+    ],
+    "city": "Луцьк",
+    "region": "Волинська область",
+    "address": "вул. Автомобільна, 98",
+    "phone": "+380443678638",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://bmw-луцьк.ua"
+  },
+  {
+    "id": "dealer-8",
+    "type": "official_dealer",
+    "name": "Ford Моторс Кропивницький",
+    "brandFocus": [
+      "Ford"
+    ],
+    "city": "Кропивницький",
+    "region": "Кіровоградська область",
+    "address": "вул. Автомобільна, 36",
+    "phone": "+380443608513",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://ford-кропивницький.ua"
+  },
+  {
+    "id": "dealer-9",
+    "type": "official_dealer",
+    "name": "Krone Моторс Житомир",
+    "brandFocus": [
+      "Krone"
+    ],
+    "city": "Житомир",
+    "region": "Житомирська область",
+    "address": "вул. Автомобільна, 14",
+    "phone": "+380442556017",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://krone-житомир.ua"
+  },
+  {
+    "id": "dealer-10",
+    "type": "official_dealer",
+    "name": "Mercedes-Benz Моторс Суми",
+    "brandFocus": [
+      "Mercedes-Benz"
+    ],
+    "city": "Суми",
+    "region": "Сумська область",
+    "address": "вул. Автомобільна, 109",
+    "phone": "+380446770619",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://mercedesbenz-суми.ua"
+  },
+  {
+    "id": "dealer-11",
+    "type": "official_dealer",
+    "name": "Автоцентр KTM Суми",
+    "brandFocus": [
+      "KTM"
+    ],
+    "city": "Суми",
+    "region": "Сумська область",
+    "address": "вул. Автомобільна, 94",
+    "phone": "+380448707870",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://ktm-суми.ua"
+  },
+  {
+    "id": "dealer-12",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Kögel Ужгород",
+    "brandFocus": [
+      "Kögel"
+    ],
+    "city": "Ужгород",
+    "region": "Закарпатська область",
+    "address": "вул. Автомобільна, 11",
+    "phone": "+380445918715",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://kögel-ужгород.ua"
+  },
+  {
+    "id": "dealer-13",
+    "type": "official_dealer",
+    "name": "Honda Моторс Кропивницький",
+    "brandFocus": [
+      "Honda"
+    ],
+    "city": "Кропивницький",
+    "region": "Кіровоградська область",
+    "address": "вул. Автомобільна, 74",
+    "phone": "+380444226067",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://honda-кропивницький.ua"
+  },
+  {
+    "id": "dealer-14",
+    "type": "official_dealer",
+    "name": "Автоцентр Setra Хмельницький",
+    "brandFocus": [
+      "Setra"
+    ],
+    "city": "Хмельницький",
+    "region": "Хмельницька область",
+    "address": "вул. Автомобільна, 85",
+    "phone": "+380444823498",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://setra-хмельницький.ua"
+  },
+  {
+    "id": "dealer-15",
+    "type": "official_dealer",
+    "name": "Автоцентр Solaris Луцьк",
+    "brandFocus": [
+      "Solaris"
+    ],
+    "city": "Луцьк",
+    "region": "Волинська область",
+    "address": "вул. Автомобільна, 110",
+    "phone": "+380444905582",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://solaris-луцьк.ua"
+  },
+  {
+    "id": "dealer-16",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Harley-Davidson Харків",
+    "brandFocus": [
+      "Harley-Davidson"
+    ],
+    "city": "Харків",
+    "region": "Харківська область",
+    "address": "вул. Автомобільна, 36",
+    "phone": "+380448606962",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://harleydavidson-харків.ua"
+  },
+  {
+    "id": "dealer-17",
+    "type": "official_dealer",
+    "name": "Kawasaki Моторс Івано-Франківськ",
+    "brandFocus": [
+      "Kawasaki"
+    ],
+    "city": "Івано-Франківськ",
+    "region": "Івано-Франківська область",
+    "address": "вул. Автомобільна, 21",
+    "phone": "+380447210606",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://kawasaki-івано-франківськ.ua"
+  },
+  {
+    "id": "dealer-18",
+    "type": "official_dealer",
+    "name": "Skoda Моторс Дніпро",
+    "brandFocus": [
+      "Skoda"
+    ],
+    "city": "Дніпро",
+    "region": "Дніпропетровська область",
+    "address": "вул. Автомобільна, 90",
+    "phone": "+380442197935",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://skoda-дніпро.ua"
+  },
+  {
+    "id": "dealer-19",
+    "type": "official_dealer",
+    "name": "Mercedes-Benz Центр Івано-Франківськ",
+    "brandFocus": [
+      "Mercedes-Benz"
+    ],
+    "city": "Івано-Франківськ",
+    "region": "Івано-Франківська область",
+    "address": "вул. Автомобільна, 69",
+    "phone": "+380445107245",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://mercedesbenz-івано-франківськ.ua"
+  },
+  {
+    "id": "dealer-20",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Irizar Житомир",
+    "brandFocus": [
+      "Irizar"
+    ],
+    "city": "Житомир",
+    "region": "Житомирська область",
+    "address": "вул. Автомобільна, 35",
+    "phone": "+380444684531",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://irizar-житомир.ua"
+  },
+  {
+    "id": "dealer-21",
+    "type": "official_dealer",
+    "name": "Автоцентр Mercedes-Benz Київ",
+    "brandFocus": [
+      "Mercedes-Benz"
+    ],
+    "city": "Київ",
+    "region": "Київська область",
+    "address": "вул. Автомобільна, 30",
+    "phone": "+380441538552",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://mercedesbenz-київ.ua"
+  },
+  {
+    "id": "dealer-22",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Mazda Чернівці",
+    "brandFocus": [
+      "Mazda"
+    ],
+    "city": "Чернівці",
+    "region": "Чернівецька область",
+    "address": "вул. Автомобільна, 35",
+    "phone": "+380442110460",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://mazda-чернівці.ua"
+  },
+  {
+    "id": "dealer-23",
+    "type": "official_dealer",
+    "name": "BMW Моторс Львів",
+    "brandFocus": [
+      "BMW"
+    ],
+    "city": "Львів",
+    "region": "Львівська область",
+    "address": "вул. Автомобільна, 28",
+    "phone": "+380449375710",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://bmw-львів.ua"
+  },
+  {
+    "id": "dealer-24",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Irizar Тернопіль",
+    "brandFocus": [
+      "Irizar"
+    ],
+    "city": "Тернопіль",
+    "region": "Тернопільська область",
+    "address": "вул. Автомобільна, 19",
+    "phone": "+380445443951",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://irizar-тернопіль.ua"
+  },
+  {
+    "id": "dealer-25",
+    "type": "official_dealer",
+    "name": "Krone Моторс Херсон",
+    "brandFocus": [
+      "Krone"
+    ],
+    "city": "Херсон",
+    "region": "Херсонська область",
+    "address": "вул. Автомобільна, 96",
+    "phone": "+380448187926",
+    "rating": 5.0,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://krone-херсон.ua"
+  },
+  {
+    "id": "dealer-26",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Skoda Львів",
+    "brandFocus": [
+      "Skoda"
+    ],
+    "city": "Львів",
+    "region": "Львівська область",
+    "address": "вул. Автомобільна, 47",
+    "phone": "+380444679591",
+    "rating": 5.0,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://skoda-львів.ua"
+  },
+  {
+    "id": "dealer-27",
+    "type": "official_dealer",
+    "name": "MAN Центр Рівне",
+    "brandFocus": [
+      "MAN"
+    ],
+    "city": "Рівне",
+    "region": "Рівненська область",
+    "address": "вул. Автомобільна, 66",
+    "phone": "+380449279821",
+    "rating": 4.6,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://man-рівне.ua"
+  },
+  {
+    "id": "dealer-28",
+    "type": "official_dealer",
+    "name": "Автоцентр Ford Хмельницький",
+    "brandFocus": [
+      "Ford"
+    ],
+    "city": "Хмельницький",
+    "region": "Хмельницька область",
+    "address": "вул. Автомобільна, 111",
+    "phone": "+380442839607",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://ford-хмельницький.ua"
+  },
+  {
+    "id": "dealer-29",
+    "type": "official_dealer",
+    "name": "BMW Центр Суми",
+    "brandFocus": [
+      "BMW"
+    ],
+    "city": "Суми",
+    "region": "Сумська область",
+    "address": "вул. Автомобільна, 102",
+    "phone": "+380448082668",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://bmw-суми.ua"
+  },
+  {
+    "id": "dealer-30",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Kögel Миколаїв",
+    "brandFocus": [
+      "Kögel"
+    ],
+    "city": "Миколаїв",
+    "region": "Миколаївська область",
+    "address": "вул. Автомобільна, 49",
+    "phone": "+380448852574",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://kögel-миколаїв.ua"
+  },
+  {
+    "id": "dealer-31",
+    "type": "official_dealer",
+    "name": "Автоцентр Kögel Львів",
+    "brandFocus": [
+      "Kögel"
+    ],
+    "city": "Львів",
+    "region": "Львівська область",
+    "address": "вул. Автомобільна, 88",
+    "phone": "+380442921859",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://kögel-львів.ua"
+  },
+  {
+    "id": "dealer-32",
+    "type": "official_dealer",
+    "name": "Hyundai Моторс Рівне",
+    "brandFocus": [
+      "Hyundai"
+    ],
+    "city": "Рівне",
+    "region": "Рівненська область",
+    "address": "вул. Автомобільна, 99",
+    "phone": "+380446707197",
+    "rating": 4.6,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://hyundai-рівне.ua"
+  },
+  {
+    "id": "dealer-33",
+    "type": "official_dealer",
+    "name": "Офіційний дилер MAN Вінниця",
+    "brandFocus": [
+      "MAN"
+    ],
+    "city": "Вінниця",
+    "region": "Вінницька область",
+    "address": "вул. Автомобільна, 21",
+    "phone": "+380448612220",
+    "rating": 4.6,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://man-вінниця.ua"
+  },
+  {
+    "id": "dealer-34",
+    "type": "official_dealer",
+    "name": "Solaris Моторс Київ",
+    "brandFocus": [
+      "Solaris"
+    ],
+    "city": "Київ",
+    "region": "Київська область",
+    "address": "вул. Автомобільна, 65",
+    "phone": "+380443997281",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://solaris-київ.ua"
+  },
+  {
+    "id": "dealer-35",
+    "type": "official_dealer",
+    "name": "Автоцентр MAN Суми",
+    "brandFocus": [
+      "MAN"
+    ],
+    "city": "Суми",
+    "region": "Сумська область",
+    "address": "вул. Автомобільна, 112",
+    "phone": "+380446007072",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://man-суми.ua"
+  },
+  {
+    "id": "dealer-36",
+    "type": "official_dealer",
+    "name": "KTM Центр Запоріжжя",
+    "brandFocus": [
+      "KTM"
+    ],
+    "city": "Запоріжжя",
+    "region": "Запорізька область",
+    "address": "вул. Автомобільна, 20",
+    "phone": "+380447273233",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://ktm-запоріжжя.ua"
+  },
+  {
+    "id": "dealer-37",
+    "type": "official_dealer",
+    "name": "Автоцентр MAN Харків",
+    "brandFocus": [
+      "MAN"
+    ],
+    "city": "Харків",
+    "region": "Харківська область",
+    "address": "вул. Автомобільна, 77",
+    "phone": "+380446438436",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://man-харків.ua"
+  },
+  {
+    "id": "dealer-38",
+    "type": "official_dealer",
+    "name": "Автоцентр Solaris Запоріжжя",
+    "brandFocus": [
+      "Solaris"
+    ],
+    "city": "Запоріжжя",
+    "region": "Запорізька область",
+    "address": "вул. Автомобільна, 119",
+    "phone": "+380447089806",
+    "rating": 5.0,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://solaris-запоріжжя.ua"
+  },
+  {
+    "id": "dealer-39",
+    "type": "official_dealer",
+    "name": "DAF Моторс Чернігів",
+    "brandFocus": [
+      "DAF"
+    ],
+    "city": "Чернігів",
+    "region": "Чернігівська область",
+    "address": "вул. Автомобільна, 31",
+    "phone": "+380441971823",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://daf-чернігів.ua"
+  },
+  {
+    "id": "dealer-40",
+    "type": "official_dealer",
+    "name": "Автоцентр Schwarzmüller Житомир",
+    "brandFocus": [
+      "Schwarzmüller"
+    ],
+    "city": "Житомир",
+    "region": "Житомирська область",
+    "address": "вул. Автомобільна, 11",
+    "phone": "+380449153566",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://schwarzmüller-житомир.ua"
+  },
+  {
+    "id": "dealer-41",
+    "type": "official_dealer",
+    "name": "Solaris Центр Харків",
+    "brandFocus": [
+      "Solaris"
+    ],
+    "city": "Харків",
+    "region": "Харківська область",
+    "address": "вул. Автомобільна, 17",
+    "phone": "+380448973915",
+    "rating": 5.0,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://solaris-харків.ua"
+  },
+  {
+    "id": "dealer-42",
+    "type": "official_dealer",
+    "name": "Wielton Центр Чернігів",
+    "brandFocus": [
+      "Wielton"
+    ],
+    "city": "Чернігів",
+    "region": "Чернігівська область",
+    "address": "вул. Автомобільна, 34",
+    "phone": "+380449852897",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://wielton-чернігів.ua"
+  },
+  {
+    "id": "dealer-43",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Volkswagen Тернопіль",
+    "brandFocus": [
+      "Volkswagen"
+    ],
+    "city": "Тернопіль",
+    "region": "Тернопільська область",
+    "address": "вул. Автомобільна, 28",
+    "phone": "+380444374754",
+    "rating": 4.9,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://volkswagen-тернопіль.ua"
+  },
+  {
+    "id": "dealer-44",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Mercedes-Benz Запоріжжя",
+    "brandFocus": [
+      "Mercedes-Benz"
+    ],
+    "city": "Запоріжжя",
+    "region": "Запорізька область",
+    "address": "вул. Автомобільна, 86",
+    "phone": "+380447264956",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://mercedesbenz-запоріжжя.ua"
+  },
+  {
+    "id": "dealer-45",
+    "type": "official_dealer",
+    "name": "Офіційний дилер Mazda Суми",
+    "brandFocus": [
+      "Mazda"
+    ],
+    "city": "Суми",
+    "region": "Сумська область",
+    "address": "вул. Автомобільна, 16",
+    "phone": "+380445159166",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://mazda-суми.ua"
+  },
+  {
+    "id": "dealer-46",
+    "type": "official_dealer",
+    "name": "Ataman Моторс Миколаїв",
+    "brandFocus": [
+      "Ataman"
+    ],
+    "city": "Миколаїв",
+    "region": "Миколаївська область",
+    "address": "вул. Автомобільна, 3",
+    "phone": "+380444860684",
+    "rating": 4.8,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://ataman-миколаїв.ua"
+  },
+  {
+    "id": "dealer-47",
+    "type": "official_dealer",
+    "name": "Автоцентр MAN Івано-Франківськ",
+    "brandFocus": [
+      "MAN"
+    ],
+    "city": "Івано-Франківськ",
+    "region": "Івано-Франківська область",
+    "address": "вул. Автомобільна, 10",
+    "phone": "+380441987737",
+    "rating": 4.7,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://man-івано-франківськ.ua"
+  },
+  {
+    "id": "dealer-48",
+    "type": "official_dealer",
+    "name": "Автоцентр Wielton Полтава",
+    "brandFocus": [
+      "Wielton"
+    ],
+    "city": "Полтава",
+    "region": "Полтавська область",
+    "address": "вул. Автомобільна, 111",
+    "phone": "+380446543670",
+    "rating": 4.6,
+    "workingHours": "Пн-Сб: 09:00 - 19:00",
+    "website": "https://wielton-полтава.ua"
+  }
+]
