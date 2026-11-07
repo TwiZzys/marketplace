@@ -1,0 +1,101 @@
+@use "@scss/vars" as *;
+
+.notFound {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+
+  &__container {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__code {
+    @include RobotoVar(700);
+    font-size: 120px;
+    line-height: 1;
+    color: $black;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    :global(body.dark) & {
+      color: $white;
+    }
+  }
+
+  // Робимо нуль у 404 схожим на колесо або стильну деталь
+  &__wheel {
+    display: inline-block;
+    color: $red;
+    animation: pulseWheel 2s infinite ease-in-out;
+  }
+
+  &__title {
+    @include RobotoVar(500);
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: $black;
+
+    :global(body.dark) & {
+      color: $white;
+    }
+
+    @include media(768) {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    @include RobotoVar(400);
+    font-size: 16px;
+    color: rgba($black, 0.7);
+    margin-bottom: 30px;
+    line-height: 1.6;
+
+    :global(body.dark) & {
+      color: rgba($white, 0.7);
+    }
+  }
+
+  &__btn {
+    @include RobotoVar(500);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    background-color: transparent;
+    border: 2px solid $black;
+    border-radius: 15px;
+    color: $black;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    :global(body.dark) & {
+      border-color: $white;
+      color: $white;
+    }
+
+    &:hover {
+      border-color: $red;
+      color: $red;
+      background-color: rgba($red, 0.05);
+    }
+  }
+}
+
+@keyframes pulseWheel {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}

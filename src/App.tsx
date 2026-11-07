@@ -1,26 +1,24 @@
-import { Routes, Route } from "react-router-dom";
-import { MainLayout } from "@layouts/";
-import { useSvgSprite } from '@hooks/';
-import { useEffect, useState } from "react";
-import { Vehicle, Part } from "@/types";
+import {Routes, Route} from "react-router-dom";
+import {MainLayout} from "@layouts/";
+import {useSvgSprite} from '@hooks/';
+import {useEffect, useState} from "react";
+import {Vehicle, Part} from "@/types";
+import {NotFound} from "@/pages";
 
 export default function App() {
-  // Інжект спрайту
   useSvgSprite();
 
   const [vehicles, setVehicles] = useState<Vehicle[]>([]);
   const [parts, setParts] = useState<Part[]>([]);
 
   useEffect(() => {
-    // Controller для скасування запитів, якщо компонент розмонтувався
     const controller = new AbortController();
 
     const fetchData = async () => {
       try {
-        // Паралельне завантаження транспортних засобів та запчастин
         const [vehiclesRes, partsRes] = await Promise.all([
-          fetch('/data/vehicles.json', { signal: controller.signal }),
-          fetch('/data/parts.json', { signal: controller.signal }),
+          fetch('/data/vehicles.json', {signal: controller.signal}),
+          fetch('/data/parts.json', {signal: controller.signal}),
         ]);
 
         if (!vehiclesRes.ok || !partsRes.ok) {
@@ -47,9 +45,9 @@ export default function App() {
 
   return (
     <Routes>
-      {/* Передаємо у MainLayout як vehicles, так і parts */}
-      <Route element={<MainLayout vehicles={vehicles} parts={parts} />}>
-        <Route path="/*" element={<div>Головна</div>}/>
+      <Route element={<MainLayout vehicles={vehicles} parts={parts}/>}>
+        <Route path="/" element={<div>Головна сторінка</div>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Route>
     </Routes>
   );
