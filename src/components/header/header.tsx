@@ -32,7 +32,6 @@ const CATEGORY_NAMES: Record<string, string> = {
   trailers: "Причіпи",
 };
 
-// Українські назви для підкатегорій запчастин з урахуванням subCategory з parts.json
 const PART_CATEGORY_NAMES: Record<string, string> = {
   engine: "Двигун",
   suspension: "Підвіска",
@@ -45,16 +44,28 @@ const PART_CATEGORY_NAMES: Record<string, string> = {
 const CATEGORY_ORDER = ["cars", "trucks", "buses", "motorcycles", "trailers", "special"];
 const PART_CATEGORY_ORDER = ["engine", "suspension", "brakes", "transmission", "filters", "exhaust"];
 
+/**
+ * Універсальна функція для отримання унікальних значень і сортування їх за заданим порядком
+ */
+const getUniqueAndSorted = <T,>(
+  items: T[] | undefined,
+  getProperty: (item: T) => string,
+  orderArray: string[]
+) => {
+  return Array.from(new Set((items || []).map(getProperty))).sort((a, b) => {
+    const indexA = orderArray.indexOf(a);
+    const indexB = orderArray.indexOf(b);
+    if (indexA === -1) return 1;
+    if (indexB === -1) return -1;
+    return indexA - indexB;
+  });
+};
+
 export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
   const location = useLocation();
 
-  // Стан для мобільного меню (бургера)
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
-
-  // Десктопний стан: активний ключ дропдауна
   const [activeDesktopDropdown, setActiveDesktopDropdown] = useState<string | null>(null);
-
-  // Мобільний стан: масив відкритих пунктів
   const [openMobileDropdowns, setOpenMobileDropdowns] = useState<string[]>([]);
 
   const headerRef = useRef<HTMLElement>(null);
@@ -73,27 +84,26 @@ export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
     };
   }, []);
 
-  // Унікальні категорії для транспорту
-  const uniqueCategories = Array.from(
-    new Set((vehicles || []).map((v) => v.category))
-  ).sort((a, b) => {
-    const indexA = CATEGORY_ORDER.indexOf(a);
-    const indexB = CATEGORY_ORDER.indexOf(b);
-    if (indexA === -1) return 1;
-    if (indexB === -1) return -1;
-    return indexA - indexB;
-  });
+  // Оптимізовано через універсальну функцію
+  const uniqueCategories = getUniqueAndSorted(vehicles, (v) => v.category, CATEGORY_ORDER);
+  const uniquePartCategories = getUniqueAndSorted(parts, (p) => p.subCategory, PART_CATEGORY_ORDER);
 
-  // Унікальні підкатегорії для запчастин (беремо subCategory з parts.json)[cite: 2]
-  const uniquePartCategories = Array.from(
-    new Set((parts || []).map((p) => p.subCategory))
-  ).sort((a, b) => {
-    const indexA = PART_CATEGORY_ORDER.indexOf(a);
-    const indexB = PART_CATEGORY_ORDER.indexOf(b);
-    if (indexA === -1) return 1;
-    if (indexB === -1) return -1;
-    return indexA - indexB;
-  });
+  // Хелпер для отримання пунктів випадаючого списку
+  const getDropdownItems = (item: (typeof NAVIGATION_ITEMS)[number]) => {
+    if (item.dynamicSource === "vehicles") {
+      return uniqueCategories.map((catKey) => ({
+        label: CATEGORY_NAMES[catKey] || catKey,
+        to: `/vehicles/${catKey}`,
+      }));
+    }
+    if (item.dynamicSource === "parts") {
+      return uniquePartCategories.map((catKey) => ({
+        label: PART_CATEGORY_NAMES[catKey] || catKey,
+        to: `/parts/${catKey}`,
+      }));
+    }
+    return item.children;
+  };
 
   const [theme, setTheme] = useState<ThemeType>(() => {
     if (typeof window !== "undefined") {
@@ -171,19 +181,7 @@ export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
 
                   for (const item of NAVIGATION_ITEMS) {
                     if (item.key) {
-                      let dropdownItems = item.children;
-                      if (item.dynamicSource === "vehicles") {
-                        dropdownItems = uniqueCategories.map((catKey) => ({
-                          label: CATEGORY_NAMES[catKey] || catKey,
-                          to: `/vehicles/${catKey}`,
-                        }));
-                      } else if (item.dynamicSource === "parts") {
-                        dropdownItems = uniquePartCategories.map((catKey) => ({
-                          label: PART_CATEGORY_NAMES[catKey] || catKey,
-                          to: `/parts/${catKey}`,
-                        }));
-                      }
-
+                      const dropdownItems = getDropdownItems(item);
                       const hasActiveChild = dropdownItems?.some((child) =>
                         location.pathname.startsWith(child.to)
                       );
@@ -206,7 +204,6 @@ export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
 
             <ul className={`${s("menu__list")} ${isMenuOpen ? s("menu__list--open") : ""}`}>
               {NAVIGATION_ITEMS.map((item, index) => {
-                // Якщо це звичайна силка без children та без dynamicSource
                 if (item.to && !item.children && !item.dynamicSource) {
                   return (
                     <li className={s("menu__item")} key={index}>
@@ -238,19 +235,7 @@ export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
                   (item.basePath && location.pathname.startsWith(item.basePath)) ||
                   (item.to && location.pathname.startsWith(item.to));
 
-                // Визначаємо пункти випадайки (статичні children або динамічні з vehicles / parts)
-                let dropdownItems = item.children;
-                if (item.dynamicSource === "vehicles") {
-                  dropdownItems = uniqueCategories.map((catKey) => ({
-                    label: CATEGORY_NAMES[catKey] || catKey,
-                    to: `/vehicles/${catKey}`,
-                  }));
-                } else if (item.dynamicSource === "parts") {
-                  dropdownItems = uniquePartCategories.map((catKey) => ({
-                    label: PART_CATEGORY_NAMES[catKey] || catKey,
-                    to: `/parts/${catKey}`,
-                  }));
-                }
+                const dropdownItems = getDropdownItems(item);
 
                 return (
                   <li
@@ -317,7 +302,6 @@ export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
             </ul>
           </nav>
 
-          {/* Блок дій та теми залишено без змін */}
           <ul className={s("actions")}>
             <li className={s("actions__item")}>
               <a href="#" className={s("actions__link")} title="Логін">
