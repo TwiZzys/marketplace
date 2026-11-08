@@ -1,8 +1,24 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useOutletContext } from 'react-router-dom';
 import styles from './not-found.module.scss';
 
+interface LayoutContext {
+  setShowBreadcrumbs: (show: boolean) => void;
+}
+
 export const NotFound: React.FC = () => {
+  const { setShowBreadcrumbs } = useOutletContext<LayoutContext>();
+
+  useEffect(() => {
+    // Вимикаємо хлібні крихти, щойно відкрилася 404 сторінка
+    setShowBreadcrumbs(false);
+
+    // (Опціонально) Вмикаємо назад, якщо користувач піде далі з цієї сторінки
+    return () => {
+      setShowBreadcrumbs(true);
+    };
+  }, [setShowBreadcrumbs]);
+
   return (
     <div className={styles.notFound}>
       <div className={styles.notFound__container}>

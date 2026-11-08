@@ -1,0 +1,28 @@
+{
+  "/": "Головна",
+
+  "/vehicles/": "Транспорт",
+  "/vehicles/cars/": "Легкові",
+  "/vehicles/trucks/": "Вантажні",
+  "/vehicles/buses/": "Автобуси",
+  "/vehicles/motorcycles/": "Мотоцикли",
+  "/vehicles/trailers/": "Причіпи",
+  "/vehicles/special/": "Спецтехніка",
+
+  "/parts/": "Запчастини",
+  "/parts/engine/": "Двигун",
+  "/parts/suspension/": "Підвіска",
+  "/parts/brakes/": "Гальмівна система",
+  "/parts/transmission/": "Трансмісія",
+  "/parts/filters/": "Фільтри",
+  "/parts/exhaust/": "Вихлопна система",
+
+  "/service/": "Сервіс",
+  "/service/diagnostics/": "Діагностика",
+  "/service/repair/": "Ремонт",
+  "/service/maintenance/": "ТО та обслуговування",
+  "/service/tire-fitting/": "Шиномонтаж",
+
+  "/dealers/": "Дилери",
+  "/supports/": "Підтримка"
+}
