@@ -1,5 +1,6 @@
 import { AppImage } from "@shared/components/app-image";
-import { createStyles } from "@utils/";
+import {createStyles, getUniqueAndSorted} from "@utils/";
+import {PART_CATEGORY_NAMES, PART_CATEGORY_ORDER, VEHICLE_CATEGORY_NAMES, VEHICLE_CATEGORY_ORDER} from '@/constants/';
 import { NAVIGATION_ITEMS, THEME, THEME_STORAGE_KEY, ThemeType } from "@/constants";
 import {
   CircleUserRound,
@@ -22,44 +23,6 @@ interface HeaderProps {
   vehicles?: Vehicle[];
   parts?: Part[];
 }
-
-const CATEGORY_NAMES: Record<string, string> = {
-  buses: "Автобуси",
-  cars: "Легкові",
-  trucks: "Вантажні",
-  motorcycles: "Мотоцикли",
-  special: "Спецтехніка",
-  trailers: "Причіпи",
-};
-
-const PART_CATEGORY_NAMES: Record<string, string> = {
-  engine: "Двигун",
-  suspension: "Підвіска",
-  brakes: "Гальмівна система",
-  transmission: "Трансмісія",
-  filters: "Фільтри",
-  exhaust: "Вихлопна система",
-};
-
-const CATEGORY_ORDER = ["cars", "trucks", "buses", "motorcycles", "trailers", "special"];
-const PART_CATEGORY_ORDER = ["engine", "suspension", "brakes", "transmission", "filters", "exhaust"];
-
-/**
- * Універсальна функція для отримання унікальних значень і сортування їх за заданим порядком
- */
-const getUniqueAndSorted = <T,>(
-  items: T[] | undefined,
-  getProperty: (item: T) => string,
-  orderArray: string[]
-) => {
-  return Array.from(new Set((items || []).map(getProperty))).sort((a, b) => {
-    const indexA = orderArray.indexOf(a);
-    const indexB = orderArray.indexOf(b);
-    if (indexA === -1) return 1;
-    if (indexB === -1) return -1;
-    return indexA - indexB;
-  });
-};
 
 export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
   const location = useLocation();
@@ -85,14 +48,14 @@ export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
   }, []);
 
   // Оптимізовано через універсальну функцію
-  const uniqueCategories = getUniqueAndSorted(vehicles, (v) => v.category, CATEGORY_ORDER);
+  const uniqueCategories = getUniqueAndSorted(vehicles, (v) => v.category, VEHICLE_CATEGORY_ORDER);
   const uniquePartCategories = getUniqueAndSorted(parts, (p) => p.subCategory, PART_CATEGORY_ORDER);
 
   // Хелпер для отримання пунктів випадаючого списку
   const getDropdownItems = (item: (typeof NAVIGATION_ITEMS)[number]) => {
     if (item.dynamicSource === "vehicles") {
       return uniqueCategories.map((catKey) => ({
-        label: CATEGORY_NAMES[catKey] || catKey,
+        label: VEHICLE_CATEGORY_NAMES[catKey] || catKey,
         to: `/vehicles/${catKey}`,
       }));
     }
