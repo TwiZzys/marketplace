@@ -603,6 +603,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.107.1":
+  version: 5.107.1
+  resolution: "@tanstack/query-core@npm:5.107.1"
+  checksum: 10c0/991070e0d7b9a7fb7459f6399090f22e9769dd30efcea316c3e9a0b5442990378fcdd9ed37548cec0729c627189e091100dbe7d3778c666100c373db0b978963
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.107.1":
+  version: 5.107.1
+  resolution: "@tanstack/react-query@npm:5.107.1"
+  dependencies:
+    "@tanstack/query-core": "npm:5.107.1"
+  peerDependencies:
+    "@types/react": ^18 || ^19
+    react: ^18 || ^19
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/c4a46bbacf5fe69fbe487495e74bad3e17857d19eeccad5e066cf4bbe148a831c082b429a6646874b7809cdf245bbdf08e93cfe3fae52b605edf0c38dcab7369
+  languageName: node
+  linkType: hard
+
 "@tokenizer/inflate@npm:^0.4.1":
   version: 0.4.1
   resolution: "@tokenizer/inflate@npm:0.4.1"
@@ -2190,6 +2212,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite-react@workspace:."
   dependencies:
+    "@tanstack/react-query": "npm:^5.107.1"
     "@types/node": "npm:^26.6.5"
     "@types/react": "npm:^19.3.0"
     "@types/react-dom": "npm:^19.3.0"
