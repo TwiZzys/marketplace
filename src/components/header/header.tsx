@@ -1,7 +1,8 @@
 import { AppImage } from "@shared/components/app-image";
-import {createStyles, getUniqueAndSorted} from "@utils/";
-import {PART_CATEGORY_NAMES, PART_CATEGORY_ORDER, VEHICLE_CATEGORY_NAMES, VEHICLE_CATEGORY_ORDER} from '@/constants/';
+import { createStyles, getUniqueAndSorted } from "@utils/";
+import { PART_CATEGORY_NAMES, PART_CATEGORY_ORDER, VEHICLE_CATEGORY_NAMES, VEHICLE_CATEGORY_ORDER } from '@/constants/';
 import { NAVIGATION_ITEMS, THEME, THEME_STORAGE_KEY, ThemeType } from "@/constants";
+import { useVehicles, useParts } from "@/hooks";
 import {
   CircleUserRound,
   Heart,
@@ -17,15 +18,13 @@ import type React from "react";
 import { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import style from "./scss/header.module.scss";
-import { Vehicle, Part } from "@/types";
 
-interface HeaderProps {
-  vehicles?: Vehicle[];
-  parts?: Part[];
-}
-
-export const Header: React.FC<HeaderProps> = ({ vehicles, parts }) => {
+export const Header: React.FC = () => {
   const location = useLocation();
+
+  // Отримуємо дані та стейт завантаження напряму через React Query
+  const { data: vehicles = [] } = useVehicles();
+  const { data: parts = [] } = useParts();
 
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const [activeDesktopDropdown, setActiveDesktopDropdown] = useState<string | null>(null);
